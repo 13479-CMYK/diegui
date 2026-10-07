@@ -13,3 +13,6 @@ footer{background:#102017;color:#95a193;padding:60px max(6vw,40px);display:grid;
 @media(max-width:600px){.section{padding:82px 22px}.hero{padding:110px 24px 90px}.hero-rail,.hero-number{display:none}.hero h1{font-size:76px}.hero-meta{left:24px;right:24px}.hero-meta span:last-child{display:none}.section-heading{margin-bottom:38px}.team-grid,.research-strip,.postcard-grid{grid-template-columns:1fr}.objective-list{grid-template-columns:1fr}.journey-steps{grid-template-columns:1fr 1fr}.journey-steps li{min-height:165px}.journey-steps strong{margin-top:25px}.place-card,.place-card:nth-child(even){grid-template-columns:1fr}.place-card:nth-child(even) .postcard{order:0}.place-copy{padding:25px}.visitor-grid{grid-template-columns:1fr 1fr}.entry{padding-left:24px;padding-right:24px}.entry h2{font-size:56px}footer{grid-template-columns:1fr}footer strong{font-size:25px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}}
 
+
+.hero-photo{justify-self:end;width:min(100%,620px);height:min(74vh,760px);overflow:hidden}.hero-photo img{width:100%;height:100%;max-height:none;object-fit:cover;object-position:center 47%;border-radius:2px}
+
